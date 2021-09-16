@@ -1,0 +1,19 @@
+{
+  "name": "js-primer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && npx @js-primer/local-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@js-primer/local-server": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
